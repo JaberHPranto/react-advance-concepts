@@ -1,12 +1,10 @@
-import ClickCounter from "./HOC/ClickCounter";
-import HoverCounter from "./HOC/HoverCounter";
+import ContextApp from "./Context Api/ContextApp";
 
 function App() {
   return (
-    <div>
-      <ClickCounter />
-      <HoverCounter />
-    </div>
+    <>
+      <ContextApp />
+    </>
   );
 }
 
